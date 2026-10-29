@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.esvim.tool.tests">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36" />
+    <application android:label="Greenland checks" />
+    <instrumentation android:name="org.esvim.tool.tests.SmokeInstrumentation" android:targetPackage="org.esvim.tool" />
+</manifest>

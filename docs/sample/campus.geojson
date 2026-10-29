@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "name": "greenland_campus_sample",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "area",
+        "name": "示例大学（WGS84 演示数据）"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.191,
+              39.744
+            ],
+            [
+              116.209,
+              39.744
+            ],
+            [
+              116.209,
+              39.754
+            ],
+            [
+              116.203,
+              39.754
+            ],
+            [
+              116.203,
+              39.751
+            ],
+            [
+              116.197,
+              39.751
+            ],
+            [
+              116.197,
+              39.756
+            ],
+            [
+              116.191,
+              39.756
+            ],
+            [
+              116.191,
+              39.744
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "blocked",
+        "name": "图书馆"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.1935,
+              39.746
+            ],
+            [
+              116.1955,
+              39.746
+            ],
+            [
+              116.1955,
+              39.7472
+            ],
+            [
+              116.1935,
+              39.7472
+            ],
+            [
+              116.1935,
+              39.746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "blocked",
+        "name": "明镜湖"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2015,
+              39.7465
+            ],
+            [
+              116.2065,
+              39.7465
+            ],
+            [
+              116.2065,
+              39.749
+            ],
+            [
+              116.2015,
+              39.749
+            ],
+            [
+              116.2015,
+              39.7465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "blocked",
+        "name": "体育馆"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.204,
+              39.752
+            ],
+            [
+              116.2075,
+              39.752
+            ],
+            [
+              116.2075,
+              39.7535
+            ],
+            [
+              116.204,
+              39.7535
+            ],
+            [
+              116.204,
+              39.752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "blocked",
+        "name": "施工区"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.198,
+              39.7485
+            ],
+            [
+              116.1995,
+              39.749
+            ],
+            [
+              116.1982,
+              39.7498
+            ],
+            [
+              116.198,
+              39.7485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "corridor",
+        "name": "林荫连廊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.199,
+              39.7495
+            ],
+            [
+              116.2,
+              39.7495
+            ],
+            [
+              116.2,
+              39.7502
+            ],
+            [
+              116.199,
+              39.7502
+            ],
+            [
+              116.199,
+              39.7495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_canteen",
+        "name": "一食堂"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.197,
+          39.7475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_canteen",
+        "name": "二食堂"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2033,
+          39.7528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_dorm",
+        "name": "一号宿舍"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.195,
+          39.7505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_dorm",
+        "name": "二号宿舍"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.208,
+          39.7465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_gate",
+        "name": "西门"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1915,
+          39.748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "poi_gate",
+        "name": "东门"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2088,
+          39.7535
+        ]
+      }
+    }
+  ]
+}

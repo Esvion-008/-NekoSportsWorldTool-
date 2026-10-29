@@ -1,0 +1,55 @@
+# ── 构建产物 ────────────────────────────────────────────
+/target
+/target-ui/
+/dist
+Cargo.lock.bak
+/greenland.exe
+*.exe.old
+*.exe.new
+/android/build/
+/android/.signing/
+/.android-test/
+/.worktrees/
+__pycache__/
+
+# ── 日志 / 调试输出 ─────────────────────────────────────
+greenland.log*
+*.log.old
+/scan_out.txt
+/violations_out.txt
+
+# ── 运行时数据（含会话 / 凭据 / 定位，禁止入库）──────────
+/session.json
+/config.json
+/accounts.json
+/identity.json
+/points_cache.json
+/semester_result.json
+/rank_result.json
+/ai_sports.json
+/obs_*.json
+/rec_all.tmp
+/msg.txt
+/backup/
+/fixtures/
+# 批量登录 / 违规自查导出（含真实账号与记录）
+/cheat_scan.json
+/violations*.json
+
+# ── 个人 / 财务 / 签名材料（禁止入库）────────────────────
+/*.xls
+/*.xlsx
+/*.xlsm
+/*.csv
+*.keystore
+*.jks
+*.apk
+*.aab
+*.pem
+.env
+
+# ── 编辑器 / 本地工具目录 ────────────────────────────────
+/.idea/
+/.superpowers/
+/.mimosa/
+/.zcode/

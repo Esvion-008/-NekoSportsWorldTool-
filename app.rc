@@ -1,0 +1,31 @@
+#include <winres.h>
+
+1 ICON "assets/icon.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "Greenland"
+            VALUE "FileDescription", "格陵兰岛"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "格陵兰岛"
+            VALUE "OriginalFilename", "greenland.exe"
+            VALUE "ProductName", "格陵兰岛"
+            VALUE "ProductVersion", "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
