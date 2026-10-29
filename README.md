@@ -2,11 +2,19 @@
 
 # 格陵兰岛
 
+> [!CAUTION]
+> **仅限学习研究，禁止任何实际使用。**
+>
+> 本项目是协议分析与软件工程的研究样本，**不是用来打卡的工具**。作者不提供、也从未提供
+> 代跑 / 代打卡 / 代做体育考核的任何服务。使用者因使用本项目产生的一切后果（学校处分、
+> 体育成绩作废、账号封禁、行政处罚、民事赔偿、刑事追诉等）**由使用者本人承担，作者不承担
+> 任何责任**。使用即表示你已独立判断所在学校规定与当地法律允许你这样做。
+>
+> 完整条款见文末 **[免责声明 / DISCLAIMER](#免责声明--disclaimer)**。
+
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
 
 运动世界校园版全协议自动化工具，纯 Rust 单文件，GUI / CLI 双模式。
-
-> ⚠️ 仅供学习研究，请勿用于违反学校规定的场景，后果自负。
 
 ## 关于本项目
 
@@ -131,3 +139,79 @@ ESVIM_V3_POINTS="lng,lat;lng,lat;lng,lat;lng,lat;lng,lat" cargo test --test v3_r
 
 本项目是 [NekoSportsWorldTool](https://github.com/YanamiNeko/NekoSportsWorldTool) 的二次开发版本，
 署名与原项目地址按许可证要求保留；任何分发或修改都不得移除上述署名，也不得用于商业用途。
+
+---
+
+## 免责声明 / DISCLAIMER
+
+**本项目不是供人使用的工具，而是一份协议分析与工程实践的研究样本。**
+
+### 一、性质声明
+
+1. 本项目仅供**个人学习、协议研究、逆向工程与软件工程实践**之用，不得用于任何实际场景。
+2. 本项目与运动世界校园版（及任何学校、教育机构、运营方）**无任何隶属、合作、授权或背书关系**。
+3. 作者从未、也不会以任何形式提供代跑、代打卡、规避体育考核或任何作弊服务；
+   本仓库不包含任何账号、成绩或代做交易相关内容。
+4. 作者未以任何方式鼓励、教唆或协助他人违反所在学校的规章制度或学术诚信要求。
+
+### 二、禁止用途
+
+严禁将本项目（含任何衍生版本、修改版本或部分代码）用于：
+
+- 替代或伪造真实体育锻炼记录，规避学校体育考核；
+- 代他人打卡、批量代跑、出售成绩，或任何形式的作弊服务；
+- 违反所在学校学生手册、学术诚信规定、体育课程纪律的任何行为；
+- 违反所在地法律、行政法规、部门规章或平台用户协议的任何行为；
+- 将本项目集成进任何商业产品或用于任何商业目的。
+
+### 三、责任免除
+
+在适用法律允许的最大范围内：
+
+1. 本项目按「**现状**」（AS IS）提供，**不附带任何明示或默示的担保**，包括但不限于适销性、
+   特定用途适用性、不侵权、无错误、不中断、结果准确的任何担保。
+2. 作者**不对因使用或无法使用本项目而产生的任何直接、间接、附带、特殊、惩罚性或后果性
+   损失承担责任**，包括但不限于：
+   - 学校处分（警告、记过、取消体育成绩、取消评优或推免资格、留校察看、开除学籍等）；
+   - 账号封禁、成绩作废、身份信息被标记或列入黑名单；
+   - 数据丢失、设备损坏、时间损失、第三方索赔；
+   - 任何民事赔偿责任或行政处罚；
+   - 任何刑事追诉风险。
+3. **使用者自行承担使用本项目产生的全部后果**。是否运行、如何使用，完全出于使用者本人的
+   自主决定与独立判断；作者没有也无意施加任何诱导。
+4. 作者**不承担任何形式的咨询、维护、答疑、适配或技术支持义务**，也没有义务保证本项目在
+   任何时间、任何版本的应用或服务器上可用或有效。
+5. 使用者应当**自行核对其行为是否符合所在学校规定与所在地法律**。若该类软件的分发或使用
+   在当地被禁止，**你应当立即停止使用并删除本项目的全部副本**。
+6. 本节内容与 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode) 第 5 条
+   （免责声明与责任限制）共同适用；两者冲突时，以对作者更有利的条款为准。
+
+### 四、知悉确认
+
+下载、编译、运行、分发或修改本项目，即表示你已完整阅读、理解并同意本声明，
+且已**独立判断**你所在学校的规定与所在地法律允许你这样做。
+若你不接受上述任何一条，请立即停止使用并删除本项目的全部副本。
+
+---
+
+**Disclaimer (English)**
+
+This project is provided **strictly for educational, protocol-analysis and software-engineering
+research purposes**. It is **NOT** intended for actual use, and it is **NOT** affiliated with,
+authorized by, or endorsed by any school, educational institution, or service operator.
+The author has never offered, and does not offer, any service that runs, fakes, or replaces
+physical exercise records on anyone's behalf.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+**You are solely responsible for any and all consequences of using this software**, including
+but not limited to academic penalties, disqualification of grades, account bans, loss of data,
+civil liability, administrative penalties and criminal liability. You are responsible for
+verifying that your use complies with your institution's rules and the law of your jurisdiction.
+If such use is prohibited, you must cease use immediately and delete all copies.
+By downloading, building, running, distributing or modifying this software, you acknowledge that
+you have read, understood and accepted this disclaimer, and that you accept all risks yourself.
